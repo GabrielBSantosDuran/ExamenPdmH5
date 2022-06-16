@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_svg/flutter_svg.dart';
 class Dashboard extends StatefulWidget {
   @override
  _DashboardState createState()=> _DashboardState();
@@ -58,14 +58,10 @@ class _DashboardState extends State<Dashboard>{
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Column(
-                            children: [
-                              
+                          SvgPicture.network('https://www.flaticon.es/icono-gratis/tablero_2781997')
                             ],
                           )
-                        ],
                       ),
-                    ),
                   ],
                 ),
               ],
